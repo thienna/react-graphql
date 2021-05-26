@@ -10,6 +10,6 @@ app.use('/graphql', expressGraphQL.graphqlHTTP({
 }))
 
 app.listen(4000, () => {
-    console.log('listening')
+    console.log('listening to')
 
 })
